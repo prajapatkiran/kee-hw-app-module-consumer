@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 
 /* Feature Modules */
 import { ContactModule }      from './contact/contact.module';
-import { HwAppModule } from 'kee-hw-app-module';
+import { HwAppModule } from 'kee-ng2-webpack';
 
 /* Routing Module */
 import { AppRoutingModule }   from './app.routing.module';

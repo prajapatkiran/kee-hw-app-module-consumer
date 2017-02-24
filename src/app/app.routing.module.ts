@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { HwAppComponent } from 'kee-ng2-webpack';
+
 export const routes: Routes = [
-  { path: '', redirectTo: 'contact', pathMatch: 'full'}
+  { path: 'k2', component: HwAppComponent }
+
 ];
 
 @NgModule({
@@ -10,3 +13,6 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
+
+
+  // { path: '', redirectTo: '/kee-hw-app', pathMatch: 'full'},
